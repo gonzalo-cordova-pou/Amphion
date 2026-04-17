@@ -75,7 +75,7 @@ The Emilia-Pipe includes the following major steps:
 
 3. Download the model files from the third-party repositories.
     - Manually download the checkpoints of UVR-MDX-NET-Inst_HQ_3 ([UVR-MDX-NET-Inst_3.onnx](https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/UVR-MDX-NET-Inst_HQ_3.onnx)) and DNSMOS P.835 ([sig_bak_ovr.onnx](https://github.com/microsoft/DNS-Challenge/blob/master/DNSMOS/DNSMOS/sig_bak_ovr.onnx)), then save their path for the next step configuration (i.e. #2  and #3 TODO).
-    - Creat the access token to pyannote/speaker-diarization-community-1 following [the guide](https://huggingface.co/pyannote/speaker-diarization-community-1), then save it for the next step configuration (i.e. #4 TODO).
+    - Create the access token to pyannote/speaker-diarization-community-1 following [the guide](https://huggingface.co/pyannote/speaker-diarization-community-1), then save it for the next step configuration (i.e. #4 TODO).
     - Make sure you have stable connection to GitHub and HuggingFace. The checkpoints of Silero and Whisperx-medium will be downloaded automatically on the pipeline's first run. 
 
 
