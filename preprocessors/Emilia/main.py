@@ -524,7 +524,7 @@ if __name__ == "__main__":
             "Remeber grant access following https://github.com/pyannote/pyannote-audio?tab=readme-ov-file#tldr"
         )
     dia_pipeline = Pipeline.from_pretrained(
-        "pyannote/speaker-diarization-3.1",
+        "pyannote/speaker-diarization-community-1",
         use_auth_token=cfg["huggingface_token"],
     )
     dia_pipeline.to(device)
