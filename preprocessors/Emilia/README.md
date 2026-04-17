@@ -67,7 +67,7 @@ The Emilia-Pipe includes the following major steps:
 2. Run the following commands to install the required packages:
 
     ```bash
-    conda create -y -n AudioPipeline python=3.9 
+    conda create -y -n AudioPipeline python=3.10
     conda activate AudioPipeline
 
     bash env.sh
