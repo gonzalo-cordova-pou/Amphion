@@ -529,9 +529,7 @@ if __name__ == "__main__":
             "Remeber grant access following https://github.com/pyannote/pyannote-audio?tab=readme-ov-file#tldr"
         )
     from_pretrained_params = inspect.signature(Pipeline.from_pretrained).parameters
-    auth_kwarg = (
-        "token" if "token" in from_pretrained_params else "use_auth_token"
-    )
+    auth_kwarg = "token" if "token" in from_pretrained_params else "use_auth_token"
     dia_pipeline = Pipeline.from_pretrained(
         "pyannote/speaker-diarization-community-1",
         **{auth_kwarg: cfg["huggingface_token"]},
